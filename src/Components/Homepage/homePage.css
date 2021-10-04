@@ -18,6 +18,13 @@
   border-radius: 0.5rem;
   margin-top: 1.5rem;
 }
+.enroll-btn {
+  background-color: #565692;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  color: aliceblue;
+}
 
 /* home service part  */
 
@@ -48,4 +55,9 @@
   width: 10rem;
   border-bottom: 3px solid salmon;
   margin-bottom: 2rem;
+}
+.service-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

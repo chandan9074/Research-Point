@@ -28,7 +28,7 @@ const Homepage = () => {
     }
 
     const [courses] = useCourse();
-    const home_service = courses.slice(0, 4);
+    const home_service = courses.slice(0, 6);
     console.log(typeof(courses));
 
     return ( 
@@ -58,7 +58,7 @@ const Homepage = () => {
                     }
                 </div>
                 <Link to="/services">
-                    <button className="get-started-btn font-semibold shadow-xl">See More</button>
+                    <button className="enroll-btn font-semibold shadow-xl">See More</button>
                 </Link>
             </section>
         </div>

@@ -1,0 +1,54 @@
+.web-left-part {
+  width: 35rem;
+}
+.lady-1-img {
+  width: 15rem;
+}
+.boy-1-img {
+  width: 20rem;
+}
+.web-1-cart {
+  box-shadow: 0 0 0.5rem gray;
+  padding: 2rem 5rem 0 5rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background-color: lightblue;
+  position: absolute;
+  right: 5rem;
+  top: 9rem;
+}
+.web-2-cart {
+  box-shadow: 0 0 0.5rem gray;
+  padding: 2rem 5rem 0 5rem;
+  margin-top: 3rem;
+  border-radius: 1rem;
+  background-color: lightblue;
+  position: absolute;
+  left: 5rem;
+  top: 36rem;
+}
+.web-underline {
+  width: 25rem;
+  margin-top: 0.5rem;
+  border-bottom: 3px solid salmon;
+}
+
+/* offer part  */
+
+.offer-part {
+  margin-top: 66rem;
+}
+.offer-cart {
+  box-shadow: 0 0 0.5rem gray;
+  border-radius: 1rem 1rem 1rem 1rem;
+  margin-top: 4rem;
+}
+.offer-right-part {
+  width: 40rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+.offer-left-part {
+  background-color: #565692;
+  padding: 2rem;
+  border-radius: 1rem 0 0 1rem;
+}

@@ -20,8 +20,11 @@ const Navbar = () => {
                 <Link to="/about">
                     <button className="text-xl font-semibold mr-10">About</button>
                 </Link>        
-                <Link to="/service">
-                    <button className="text-xl font-semibold mr-32">Service</button>
+                <Link to="/services">
+                    <button className="text-xl font-semibold mr-10">Services</button>
+                </Link>        
+                <Link to="/activity">
+                    <button className="text-xl font-semibold mr-32">Activities</button>
                 </Link>        
             </div>
         </nav>
