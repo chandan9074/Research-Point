@@ -1,0 +1,25 @@
+.aboutus-welcome-part {
+  height: 20rem;
+  background-color: #565692;
+}
+.about-underline {
+  width: 10rem;
+  border: 2px solid salmon;
+  margin-left: 9.9rem;
+}
+.about-course-underline {
+  width: 15rem;
+  border: 2px solid salmon;
+}
+.about-1-img {
+  position: absolute;
+  top: 21rem;
+  right: 10rem;
+}
+.about-2-right-part {
+  margin-right: 10rem;
+}
+.about-2-img {
+  width: 35rem;
+  margin-left: 10rem;
+}

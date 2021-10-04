@@ -15,7 +15,7 @@
   background-color: lightblue;
   position: absolute;
   right: 5rem;
-  top: 9rem;
+  top: 15rem;
 }
 .web-2-cart {
   box-shadow: 0 0 0.5rem gray;
@@ -25,18 +25,19 @@
   background-color: lightblue;
   position: absolute;
   left: 5rem;
-  top: 36rem;
+  top: 42rem;
 }
 .web-underline {
-  width: 25rem;
+  width: 15rem;
   margin-top: 0.5rem;
+  margin-left: 5rem;
   border-bottom: 3px solid salmon;
 }
 
 /* offer part  */
 
 .offer-part {
-  margin-top: 66rem;
+  margin-top: 48rem;
 }
 .offer-cart {
   box-shadow: 0 0 0.5rem gray;

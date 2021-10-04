@@ -61,6 +61,7 @@ const Homepage = () => {
                     <button className="enroll-btn font-semibold shadow-xl">See More</button>
                 </Link>
             </section>
+            <Footer />
         </div>
      );
 }

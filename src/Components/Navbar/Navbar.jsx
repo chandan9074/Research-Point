@@ -9,9 +9,9 @@ import Homepage from '../Homepage/Homepage';
 import './navbar.css';
 const Navbar = () => {
     return ( 
-        <nav className="flex justify-between py-6 navbar-part">
+        <nav className="flex justify-between py-6 navbar-part text-gray-200">
             <div className="ml-32 text-3xl font-bold">
-                <h2>Research Ponit</h2>
+                <h2 className="research-title">Research Ponit</h2>
             </div>
             <div>
                 <Link to="/">

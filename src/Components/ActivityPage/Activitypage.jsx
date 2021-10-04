@@ -13,16 +13,22 @@ import boy_1 from "./images/boy-1.png";
 import br_logo from "./images/br-logo.png";
 import offer from "./images/offer.png";
 import './activity.css';
+import Footer from '../Footer/Footer';
 
 
 const ActivityPage = () => {
     return ( 
         <div>
             <Navbar />
+            <section className="aboutus-welcome-part pt-20">
+                <h1 className="text-3xl text-gray-200 font-bold ml-40">Activities</h1>
+                <div className="about-underline"></div>
+                <h3 className="text-sm text-gray-200 font-bold ml-40">RESEARCH POINT</h3>
+            </section>
 
-            <section className="flex flex-col items-center">
+            <section className="flex flex-col">
                 <div>
-                    <h1 className="text-4xl font-bold mt-5">Upcomming Webinar</h1>
+                    <h1 className="text-4xl font-semibold mt-10 ml-20"> <span className="text-gray-600 font-bold">Upcomming</span> <br /> Webinar</h1>
                 </div>
                     <div className="web-underline"></div>
                 <div className="flex items-center justify-between web-1-cart">
@@ -66,6 +72,7 @@ const ActivityPage = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
      );
 }

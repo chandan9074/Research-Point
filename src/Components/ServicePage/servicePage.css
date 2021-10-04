@@ -1,4 +1,3 @@
-
 .servicepage-img {
   width: 13rem;
   height: 13rem;
@@ -17,4 +16,17 @@
   border-radius: 0.5rem;
   /* margin-top: 1.5rem; */
   color: aliceblue;
+}
+.fa-star {
+  color: goldenrod;
+}
+.allservice-part {
+  position: absolute;
+  top: 18rem;
+}
+.service-cart {
+  background-color: white;
+}
+.footer-align {
+  margin-top: 74rem;
 }

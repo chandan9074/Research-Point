@@ -12,12 +12,12 @@ const AllServices = (props) => {
             <div>
                 <img src={img} alt="" className="servicepage-img"/>
             </div>
-            <div className="service-right-part ml-4">
+            <div className="service-right-part ml-4 mr-4">
                 <h1 className="text-xl font-bold service-title" title={title}>{title}</h1>
-                <h3 className="text-md font-semibold"><i class="fas fa-calendar-alt"></i> {start_date}</h3>
-                <h3 className="text-md font-semibold"><i class="fas fa-clock"></i> {duration}</h3>
-                <h3 className="text-md font-semibold"><i class="fas fa-video"></i> {content_no}</h3>
-                <h3 className="text-md font-semibold"><i class="fas fa-users"></i> {enrolled}</h3>
+                <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-calendar-alt"></i> {start_date}</h3>
+                <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-clock"></i> {duration}</h3>
+                <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-video"></i> {content_no}</h3>
+                <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-users"></i> {enrolled}</h3>
                 <h3 className="text-md font-semibold">
                     <Rating
                         placeholderRating={rating}

@@ -8,6 +8,8 @@ import {
 import Homepage from './Components/Homepage/Homepage';
 import ServicePage from './Components/ServicePage/ServicePage';
 import ActivityPage from './Components/ActivityPage/Activitypage';
+import About from './Components/AboutPage/About';
+import Notfound from './Components/Notfound/NotFound';
 
 function App() {
   return (
@@ -17,11 +19,20 @@ function App() {
           <Route exact path="/">
             <Homepage/>
           </Route>
+          <Route exact path="/home">
+            <Homepage/>
+          </Route>
           <Route exact path="/services">
             <ServicePage />
           </Route>
           <Route exact path="/activity">
             <ActivityPage />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="*">
+            <Notfound />
           </Route>
         </Switch>
       </Router>
