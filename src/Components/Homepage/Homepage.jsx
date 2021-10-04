@@ -1,5 +1,5 @@
 // import pakages
-import React, { useEffect } from 'react';
+import React from 'react';
 
 // import components
 import Footer from '../Footer/Footer';
@@ -11,9 +11,10 @@ import './homePage.css';
 import useCourse from '../../hook/useCourse';
 import HomeService from './HomeService';
 import { Link } from 'react-router-dom';
-// import  {} from '../../../public/research-data.json'
 
 const Homepage = () => {
+
+    // create image slider for homepage welcome part 
     window.onload = function() {
         let image=document.getElementById("hp-slide");
         let img_array = [`${hp_img_2}`, `${hp_img_3}`, `${hp_img_1}`];
@@ -22,23 +23,22 @@ const Homepage = () => {
         function slide() {
             image.src = img_array[index++%img_array.length];
         }
-
         setInterval(slide, interval);
-
     }
 
+    // get data from custom hook 
     const [courses] = useCourse();
     const home_service = courses.slice(0, 6);
-    console.log(typeof(courses));
 
     return ( 
         <div>
+            {/* navbar  */}
             <Navbar />
             {/* welcome part  */}
             <section className="flex justify-around items-center py-8 hp-welcome-part">
                 <div className="w-9/12 hp-welcome-left-part">
                     <h1 className="text-5xl font-bold text-gray-200">Research point</h1>
-                    <h3 className="text-lg font-semibold text-gray-300 mt-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam dolor quos sapiente. A voluptate quaerat facere dolor modi molestias, ut ipsa voluptatum iste dolorum quasi mollitia quod reiciendis tempora asperiores.</h3>
+                    <h3 className="text-lg font-semibold text-gray-300 mt-8">Research is a process of systematic inquiry that entails collection of data; documentation of critical information; and analysis and interpretation of that data/information, in accordance with suitable methodologies set by specific professional fields and academic disciplines.</h3>
                     <button className="get-started-btn font-semibold shadow-xl">Get Started</button>
                 </div>
                 <div className="hp-welcome-right-part">
@@ -61,6 +61,8 @@ const Homepage = () => {
                     <button className="enroll-btn font-semibold shadow-xl">See More</button>
                 </Link>
             </section>
+
+            {/* footer part  */}
             <Footer />
         </div>
      );

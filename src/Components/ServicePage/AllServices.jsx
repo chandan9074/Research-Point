@@ -6,6 +6,7 @@ import Rating from 'react-rating';
 import './servicePage.css'
 
 const AllServices = (props) => {
+    // distructuring service data from props 
     const { img, title , rating, start_date, content_no, duration, enrolled, price} = props.services;
     return ( 
         <div className="flex items-center shadow-lg service-cart">
@@ -19,6 +20,7 @@ const AllServices = (props) => {
                 <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-video"></i> {content_no}</h3>
                 <h3 className="text-md text-gray-800 font-semibold"><i class="fas fa-users"></i> {enrolled}</h3>
                 <h3 className="text-md font-semibold">
+                    {/* crate rating part  */}
                     <Rating
                         placeholderRating={rating}
                         emptySymbol={<i class="far fa-star"></i>}

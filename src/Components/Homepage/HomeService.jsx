@@ -3,7 +3,9 @@ import React from 'react';
 import Rating from 'react-rating';
 
 const HomeService = (props) => {
+    // distructurign service data from props 
     const { img, title , rating, start_date, content_no, duration, enrolled, price} = props.service;
+
     return ( 
         <div className="py-10 px-10 home-service-card">
             <div>
@@ -17,6 +19,7 @@ const HomeService = (props) => {
                 <h3 className="text-lg font-semibold"><i class="fas fa-users"></i> {enrolled}</h3>
                 <div className="flex justify-between">
                     <h3 className="text-lg font-semibold">
+                        {/* create rating part by react rating  */}
                         <Rating
                             placeholderRating={rating}
                             emptySymbol={<i class="far fa-star"></i>}
@@ -29,7 +32,6 @@ const HomeService = (props) => {
                 <div className="flex justify-center">
                     <button className="get-started-btn font-semibold shadow-xl mx-auto">Enroll</button>
                 </div>
-
             </div>
         </div>
      );

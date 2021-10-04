@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 
 // import files 
-import Homepage from '../Homepage/Homepage';
 import './navbar.css';
 const Navbar = () => {
     return ( 

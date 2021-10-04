@@ -5,6 +5,8 @@ import {
   Route,
   Switch
 } from "react-router-dom";
+
+// import components
 import Homepage from './Components/Homepage/Homepage';
 import ServicePage from './Components/ServicePage/ServicePage';
 import ActivityPage from './Components/ActivityPage/Activitypage';
@@ -14,6 +16,7 @@ import Notfound from './Components/Notfound/NotFound';
 function App() {
   return (
     <div className="App">
+      {/* crate router  */}
       <Router>
         <Switch>
           <Route exact path="/">
@@ -31,6 +34,8 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
+          
+          {/* for not found page  */}
           <Route exact path="*">
             <Notfound />
           </Route>

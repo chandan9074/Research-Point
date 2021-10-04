@@ -19,13 +19,15 @@ import Footer from '../Footer/Footer';
 const ActivityPage = () => {
     return ( 
         <div>
+            {/* navbar  */}
             <Navbar />
+
+            {/* activity page contents  */}
             <section className="aboutus-welcome-part pt-20">
                 <h1 className="text-3xl text-gray-200 font-bold ml-40">Activities</h1>
                 <div className="about-underline"></div>
                 <h3 className="text-sm text-gray-200 font-bold ml-40">RESEARCH POINT</h3>
             </section>
-
             <section className="flex flex-col">
                 <div>
                     <h1 className="text-4xl font-semibold mt-10 ml-20"> <span className="text-gray-600 font-bold">Upcomming</span> <br /> Webinar</h1>
@@ -55,7 +57,6 @@ const ActivityPage = () => {
                         <img src={boy_1} alt=""  className="boy-1-img"/>
                     </div>
                 </div>
-                
             </section>
             <section className="offer-part flex flex-col items-center mb-10">
                 <h1 className="text-4xl font-bold">Offers</h1>
@@ -72,6 +73,8 @@ const ActivityPage = () => {
                     </div>
                 </div>
             </section>
+
+            {/* footer part  */}
             <Footer />
         </div>
      );

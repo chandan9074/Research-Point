@@ -11,7 +11,10 @@ import about_2 from './images/about-2.jpg';
 const About = () => {
     return ( 
         <div>
+            {/* nevbar  */}
             <Navbar />
+
+            {/* about page content  */}
             <section className="aboutus-welcome-part pt-20">
                 <h1 className="text-3xl text-gray-200 font-bold ml-40">About Us</h1>
                 <div className="about-underline"></div>
@@ -41,6 +44,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
+
+            {/* footer part  */}
             <Footer />
         </div>
      );
