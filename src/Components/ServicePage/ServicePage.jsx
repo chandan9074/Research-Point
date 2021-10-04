@@ -25,7 +25,7 @@ const ServicePage = () => {
             
             <section className="grid grid-cols-2 gap-10 p-10 allservice-part">
                 {
-                    course.map(services=> <AllServices services={services} />)
+                    course.map((services, index)=> <AllServices key={index} services={services} />)
                 }
             </section>
 

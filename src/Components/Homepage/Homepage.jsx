@@ -54,7 +54,7 @@ const Homepage = () => {
                     <div className="service-underling"></div>
                 <div className="grid grid-cols-3 gap-4">
                     {
-                        home_service.map(service => <HomeService service={service} />)
+                        home_service.map((service, index) => <HomeService key={index} service={service} />)
                     }
                 </div>
                 <Link to="/services">
