@@ -1,0 +1,106 @@
+[
+    {
+        "title": "Machine Learning with Python",
+        "img":"https://techfactslive.com/wp-content/uploads/2018/07/main-qimg-1f880f14f2eb5a34017536c1e2180a13.png",
+        "rating": 4.7,
+        "start_date": "20 Octobar, 2021",
+        "content_no":150, 
+        "duration":"1h 15m",
+        "enrolled": 2300,
+        "price": 18
+    },
+    {
+        "title": "Neural Networks and Deep Learning",
+        "img": "https://bluemarkacademy.com/wp-content/uploads/2020/12/deep-learning-logo.jpg",
+        "rating": 4.9,
+        "start_date": "20 Octobar, 2021",
+        "content_no":250, 
+        "duration":"2h 20m",
+        "enrolled": 3500,
+        "price": 25
+    },
+    {
+        "title": "Build 15 Augmented Reality (AR) apps with Unity & Vuforia",
+        "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/ec/a977b070b911e899c3899c23f43c23/ARCore-logo-_3_.png?auto=format%2Ccompress&dpr=1",
+        "rating": 4.7,
+        "start_date": "30 Octobar, 2021",
+        "content_no":200,
+        "duration":"2h 30m", 
+        "enrolled": 2400,
+        "price": 20
+    },
+    {
+        "title": "Artificial Intelligence & Machine Learning for Business",
+        "img": "https://media.istockphoto.com/vectors/artificial-intelligence-human-logo-machine-learning-concept-vector-vector-id1003432528?b=1&k=6&m=1003432528&s=170667a&w=0&h=bg1GX6t2AwMRCmZY3C3UQTYHQbeqUlkwlM1YAz13sZM=",
+        "rating": 4.6,
+        "start_date": "15 Octobar, 2021",
+        "content_no": 170,
+        "duration":"3h 00m", 
+        "enrolled": 3000,
+        "price": 22
+    },
+    {
+        "title": "Designing for Virtual Reality",
+        "img": "https://i.pinimg.com/originals/b6/9a/e3/b69ae304f5a38cde68f2eb9af626e287.jpg",
+        "rating": 4.9,
+        "start_date": "15 Octobar, 2021",
+        "content_no": 250,
+        "duration":"3h 50m", 
+        "enrolled": 2956,
+        "price": 23
+    },
+    {
+        "title": "Advanced Machine Learning Spacialization",
+        "img": "https://florencefennel.co.in/image/cache/catalog/florencefennel/Machine--Learning-1000x1000.jpg",
+        "rating": 4.5,
+        "start_date": "28 Octobar, 2021",
+        "content_no":120, 
+        "duration":"2h 30m",
+        "enrolled": 1800,
+        "price": 19
+    },
+    
+    {
+        "title": "Deep Learning Specialization Spacialization",
+        "img":"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/a4/079d5e7c7b45ac9107f22bfcfeab91/Specialization-logo.png?auto=format%2Ccompress&dpr=1&w=175&h=175&fit=fill&bg=FFF",
+        "rating": 4.9,
+        "start_date": "25 Octobar, 2021",
+        "content_no":220,
+        "duration":"2h 10m", 
+        "enrolled": 2500,
+        "price": 20
+    },
+    
+    {
+        "title": "EXPANDED Getting Started with Augmented Reality",
+        "img": "https://uploads-ssl.webflow.com/5b7529a016d8f2576dc56a91/5ee888eb5e35b61deef55ded_edu%20rounded%201-01.png",
+        "rating": 4.8,
+        "start_date": "28 Octobar, 2021",
+        "content_no":180, 
+        "duration":"2h 40m",
+        "enrolled": 2000,
+        "price": 18
+    },
+    
+    {
+        "title": "Artificial Intelligence: The Big Picture of AI",
+        "img": "https://cdn4.vectorstock.com/i/1000x1000/92/13/artificial-intelligence-concept-logo-design-human-vector-23919213.jpg",
+        "rating": 4.9,
+        "start_date": "22 Octobar, 2021",
+        "content_no":210, 
+        "duration":"2h 45m",
+        "enrolled": 2500,
+        "price": 20
+    },
+    
+    {
+        "title": "Virtual Reality Specialization",
+        "img": "https://i.pinimg.com/originals/f1/50/92/f150923f6e83dc2ed6882c9dfbbcb09b.jpg",
+        "rating": 4.7,
+        "start_date": "27 Octobar, 2021",
+        "content_no":250, 
+        "duration":"3h 54m",
+        "enrolled": 2900,
+        "price": 22
+    }
+]

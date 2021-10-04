@@ -1,0 +1,51 @@
+.hp-welcome-part {
+  background-color: #565692;
+  border-radius: 0 0 0 5rem;
+}
+.hp-welcome-left-part {
+  width: 40rem;
+}
+.hp-welcome-right-part {
+  width: 30rem;
+}
+.hp-welcome-right-part img {
+  width: 32rem;
+  height: 28rem;
+}
+.get-started-btn {
+  background-color: rgb(24, 178, 206);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+/* home service part  */
+
+.home-service-card {
+  width: 25rem;
+  height: 30rem;
+  border-left: 8px solid #565692;
+  border-radius: 0 2rem 2rem 0;
+  box-shadow: 0 0 0.1rem gray;
+}
+
+.home-service-card:hover {
+  box-shadow: 0 0 0.5rem gray;
+}
+
+.price-part {
+  background-color: #565692;
+  padding: 0.3rem 0rem 0.3rem 1rem;
+  color: white;
+}
+.price-digit {
+  padding: 0.4rem 1rem;
+  background-color: rgb(5, 129, 151);
+  color: white;
+  /* border-radius: 100%; */
+}
+.service-underling {
+  width: 10rem;
+  border-bottom: 3px solid salmon;
+  margin-bottom: 2rem;
+}
