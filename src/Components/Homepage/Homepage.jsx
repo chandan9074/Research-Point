@@ -49,7 +49,7 @@ const Homepage = () => {
 
             <section className="flex flex-col items-center mb-10">
                 <div>
-                    <h1  className="text-4xl font-bold mt-8">Services</h1>
+                    <h1  className="text-4xl font-extrabold mt-8">Services</h1>
                 </div>
                     <div className="service-underling"></div>
                 <div className="grid grid-cols-3 gap-12">

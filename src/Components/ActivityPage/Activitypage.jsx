@@ -30,7 +30,7 @@ const ActivityPage = () => {
             </section>
             <section className="flex flex-col">
                 <div>
-                    <h1 className="text-4xl font-semibold mt-10 ml-20"> <span className="text-gray-600 font-bold">Upcomming</span> <br /> Webinar</h1>
+                    <h1 className="text-4xl font-extrabold mt-10 ml-20"> <span className="text-gray-600 font-bold">Upcomming</span> <br /> Webinar</h1>
                 </div>
                     <div className="web-underline"></div>
                 <div className="flex items-center justify-between web-1-cart">
@@ -59,7 +59,7 @@ const ActivityPage = () => {
                 </div>
             </section>
             <section className="offer-part flex flex-col items-center mb-10">
-                <h1 className="text-4xl font-bold">Offers</h1>
+                <h1 className="text-4xl font-extrabold">Offers</h1>
                 <div className="service-underling"></div>
                 <div className="flex offer-cart">
                     <div className="offer-left-part">

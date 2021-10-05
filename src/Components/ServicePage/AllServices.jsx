@@ -14,11 +14,11 @@ const AllServices = (props) => {
                 <img src={img} alt="" className="servicepage-img"/>
             </div>
             <div className="service-right-part ml-4 mr-4">
-                <h1 className="text-xl font-bold service-title" title={title}>{title}</h1>
-                <h3 className="text-md text-gray-800 font-semibold"><i className="fas fa-calendar-alt"></i> {start_date}</h3>
-                <h3 className="text-md text-gray-800 font-semibold"><i className="fas fa-clock"></i> {duration}</h3>
-                <h3 className="text-md text-gray-800 font-semibold"><i className="fas fa-video"></i> {content_no}</h3>
-                <h3 className="text-md text-gray-800 font-semibold"><i className="fas fa-users"></i> {enrolled}</h3>
+                <h1 className="text-xl font-bold text-gray-800 service-title" title={title}>{title}</h1>
+                <h3 className="text-md text-indigo-900 font-semibold"><i className="fas fa-calendar-alt"></i> {start_date}</h3>
+                <h3 className="text-md text-indigo-900 font-semibold"><i className="fas fa-clock"></i> {duration}</h3>
+                <h3 className="text-md text-indigo-900 font-semibold"><i className="fas fa-video"></i> {content_no}</h3>
+                <h3 className="text-md text-indigo-900 font-semibold"><i className="fas fa-users"></i> {enrolled}</h3>
                 <h3 className="text-md font-semibold">
                     {/* crate rating part  */}
                     <Rating
@@ -26,7 +26,7 @@ const AllServices = (props) => {
                         emptySymbol={<i className="far fa-star"></i>}
                         placeholderSymbol={<i className="fas fa-star"></i>}
                         fullSymbol={<i className="fas fa-star"></i>}
-                    /> ({rating})
+                    /><span className="text-indigo-900">({rating})</span>
                 </h3>
                 <div className="flex justify-between items-center">
                     <h3 className="text-md font-semibold price-part rounded-full">Fee <span className="price-digit rounded-full">$ {price}</span></h3>

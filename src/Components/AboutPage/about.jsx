@@ -22,7 +22,7 @@ const About = () => {
             </section>
             <section className="mb-10">
                 <div className="ml-52 mt-10">
-                    <h1 className="text-2xl font-bold">Online Course</h1>
+                    <h1 className="text-2xl font-bold text-indigo-900">Online Course</h1>
                     <div className="about-course-underline"></div>
                     <article className="w-80 text-justify font-semibold text-lg">
                          An online course is a way to learn a new skill or gain some new knowledge from the comfort of your own home. They can either be paid or offered for free. Some are offered by educational institutions, while others are produced by experts in their field. The most important thing for an online course is for it to be engaging and to deliver a clear outcome.
@@ -36,7 +36,7 @@ const About = () => {
                         <img src={about_2} alt=""  className="about-2-img"/>
                     </div>
                     <div className="about-2-right-part">
-                        <h1 className="text-2xl font-bold">Research Courses</h1>
+                        <h1 className="text-2xl font-bold text-indigo-900">Research Courses</h1>
                         <div className="about-course-underline"></div>
                         <article className="w-80 text-justify font-semibold text-lg">
                             Research has been defined in a number of different ways, and while there are similarities, there does not appear to be a single, all-encompassing definition that is embraced by all who engage in it.One definition of research is used by the OECD, "Any creative systematic activity undertaken in order to increase the stock of knowledge, including knowledge of man, culture and society, and the use of this knowledge to devise new applications.
