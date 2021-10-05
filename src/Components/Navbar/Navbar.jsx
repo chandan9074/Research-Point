@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center py-6 navbar-part text-gray-200">
             <div className="ml-32 text-5xl font-bold">
                 <Link to="/">
-                    <h2 className="research-title">Research Ponit</h2>
+                    <h2 className="research-title">Research Point</h2>
                 </Link>
             </div>
             <div className="flex items-center">
