@@ -7,7 +7,7 @@ import not_found from './images/not-f.png'
 const Notfound = () => {
     return ( 
         // not found img 
-        <div>
+        <div className=" bg-white w-full flex justify-center items-center">
             <img src={not_found} alt="" />
         </div>
      );
