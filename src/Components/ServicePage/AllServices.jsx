@@ -22,6 +22,7 @@ const AllServices = (props) => {
                 <h3 className="text-md font-semibold">
                     {/* crate rating part  */}
                     <Rating
+                        readonly
                         placeholderRating={rating}
                         emptySymbol={<i className="far fa-star"></i>}
                         placeholderSymbol={<i className="fas fa-star"></i>}

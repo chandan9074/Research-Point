@@ -21,6 +21,7 @@ const HomeService = (props) => {
                     <h3 className="text-lg font-semibold">
                         {/* create rating part by react rating  */}
                         <Rating
+                            readonly
                             placeholderRating={rating}
                             emptySymbol={<i className="far fa-star"></i>}
                             placeholderSymbol={<i className="fas fa-star"></i>}
