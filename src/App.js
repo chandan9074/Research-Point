@@ -15,7 +15,7 @@ import Notfound from './Components/Notfound/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-100">
       {/* crate router  */}
       <Router>
         <Switch>

@@ -18,7 +18,7 @@ const About = () => {
             <section className="aboutus-welcome-part pt-20">
                 <h1 className="text-3xl text-gray-200 font-bold ml-40">About Us</h1>
                 <div className="about-underline"></div>
-                <h3 className="text-sm text-gray-200 font-bold ml-40">RESEARCH POINT</h3>
+                <h3 className="text-sm text-gray-200 font-bold ml-40 tracking-widest">RESEARCH POINT</h3>
             </section>
             <section className="mb-10">
                 <div className="ml-52 mt-10">

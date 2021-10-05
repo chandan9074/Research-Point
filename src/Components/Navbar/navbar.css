@@ -4,5 +4,8 @@
 }
 
 .research-title {
-  font-family: "Parisienne", cursive;
+  font-family: "Birthstone", cursive;
+}
+.nav-btn:hover {
+  border-bottom: 3px solid salmon;
 }
