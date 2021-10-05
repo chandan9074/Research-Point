@@ -52,7 +52,7 @@ const Homepage = () => {
                     <h1  className="text-4xl font-bold mt-8">Services</h1>
                 </div>
                     <div className="service-underling"></div>
-                <div className="grid grid-cols-3 gap-4">
+                <div className="grid grid-cols-3 gap-12">
                     {
                         home_service.map((service, index) => <HomeService key={index} service={service} />)
                     }
